@@ -2616,7 +2616,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/tangerine-forms/components/tangerine-form-sessions/tangerine-form-sessions.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<span (click)=\"downloadCsv()\">Download as CSV</span>\n<ul>\n  <li *ngFor=\"let session of sessions\">\n    <tangerine-form-session-item [link]=\"link\" [session]=\"session\"></tangerine-form-session-item>\n  </li>\n</ul>"
+module.exports = "<span (click)=\"downloadCsv()\"> [ Download as CSV ] </span>\n<ul>\n  <li *ngFor=\"let session of sessions\">\n    <tangerine-form-session-item [link]=\"link\" [session]=\"session\"></tangerine-form-session-item>\n  </li>\n</ul>"
 
 /***/ }),
 
