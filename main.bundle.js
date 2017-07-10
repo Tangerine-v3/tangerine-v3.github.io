@@ -2360,7 +2360,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/tangerine-forms/components/tangerine-form-links/tangerine-form-links.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<span><ng-content></ng-content></span>\n<span (click)=\"newSession()\"> [ new session ] </span> \n<span (click)=\"toggleSessions()\"> [ {{toggleSessionText}} ] </span>\n<tangerine-form-sessions *ngIf=\"showSessions\" [formId]=\"formId\" [link]=\"link\"></tangerine-form-sessions>"
+module.exports = "<span><ng-content></ng-content></span>\n<button (click)=\"newSession()\">new session</button> \n<button (click)=\"toggleSessions()\"> [ {{toggleSessionText}} ] </button>\n<tangerine-form-sessions *ngIf=\"showSessions\" [formId]=\"formId\" [link]=\"link\"></tangerine-form-sessions>"
 
 /***/ }),
 
@@ -2455,7 +2455,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/tangerine-forms/components/tangerine-form-session-item/tangerine-form-session-item.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "{{session.date | date:'medium'}} <span (click)=\"resumeSession()\">[ resume ]</span>"
+module.exports = "{{session.date | date:'medium'}} <button (click)=\"resumeSession()\">resume</button>"
 
 /***/ }),
 
@@ -2616,7 +2616,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/tangerine-forms/components/tangerine-form-sessions/tangerine-form-sessions.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<span (click)=\"downloadCsv()\"> [ Download as CSV ] </span>\n<ul>\n  <li *ngFor=\"let session of sessions\">\n    <tangerine-form-session-item [link]=\"link\" [session]=\"session\"></tangerine-form-session-item>\n  </li>\n</ul>"
+module.exports = "<button (click)=\"downloadCsv()\">Download as CSV</button>\n<ul>\n  <li *ngFor=\"let session of sessions\">\n    <tangerine-form-session-item [link]=\"link\" [session]=\"session\"></tangerine-form-session-item>\n  </li>\n</ul>"
 
 /***/ }),
 
