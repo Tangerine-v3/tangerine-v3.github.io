@@ -2360,7 +2360,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/tangerine-forms/components/tangerine-form-links/tangerine-form-links.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<span><ng-content></ng-content></span>\n<button (click)=\"newSession()\">new session</button> \n<button (click)=\"toggleSessions()\"> [ {{toggleSessionText}} ] </button>\n<tangerine-form-sessions *ngIf=\"showSessions\" [formId]=\"formId\" [link]=\"link\"></tangerine-form-sessions>"
+module.exports = "<span><ng-content></ng-content></span>\n<button (click)=\"newSession()\">new session</button> \n<button (click)=\"toggleSessions()\">{{toggleSessionText}}</button>\n<tangerine-form-sessions *ngIf=\"showSessions\" [formId]=\"formId\" [link]=\"link\"></tangerine-form-sessions>"
 
 /***/ }),
 
