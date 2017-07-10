@@ -1972,7 +1972,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/pages/index/index.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<h1>Hello World</h1>\n\n<ul>\n<li><tangerine-form-links link=\"forms/demo\" formId=\"demoForm\">Demo Form</tangerine-form-links></li>\n<li><tangerine-form-links link=\"forms/my-tangy-form\" formId=\"tangy-form\">Tangy Form</tangerine-form-links></li>\n</ul>\n"
+module.exports = "<h1>Tangerine v3 Demo</h1>\n\n<ul>\n<li><tangerine-form-links link=\"forms/demo\" formId=\"demoForm\">Demo Form</tangerine-form-links></li>\n<li><tangerine-form-links link=\"forms/my-tangy-form\" formId=\"tangy-form\">Tangy Form</tangerine-form-links></li>\n</ul>\n"
 
 /***/ }),
 
